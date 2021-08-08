@@ -1,0 +1,181 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Verifying facebook login with valid credentials",
+        "description": "",
+        "id": "verifying-facebbok-details;verifying-facebook-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28284606400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the facebook page",
+            "match": {
+              "location": "Loginsetup.tc1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 376987400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"JeniferJoseph\" and \"WA4P6I\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JeniferJoseph\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"WA4P6I\"",
+                  "offset": 38
+                }
+              ],
+              "location": "Loginsetup.user_should_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1083540700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click login button",
+            "match": {
+              "location": "Loginsetup.tc3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1824580400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter \"Sydney\",\"Hotel Creek\",\"Double\"and\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 52
+                }
+              ],
+              "location": "Loginsetup.user_should_enter_and(String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1424788400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select the hotel by click login button",
+            "match": {
+              "location": "Loginsetup.user_should_select_the_hotel_by_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1536982900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should enter \"Jenifer\",\"Joseph\",\"Chennai\u003d600013\",\"7299012723654320\",\"VISA\",\"March\",\"2022\"and\"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jenifer\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Joseph\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Chennai\u003d600013\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"7299012723654320\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 97
+                }
+              ],
+              "location": "Loginsetup.user_should_enter_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5479037600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should get order id",
+            "match": {
+              "location": "Loginsetup.user_should_get_order_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2772300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should verify success message",
+            "match": {
+              "location": "Loginsetup.tc4()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying facebbok details",
+    "description": "",
+    "id": "verifying-facebbok-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/cucum.feature",
+    "tags": []
+  }
+]

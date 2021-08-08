@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.989375">
+<testcase classname="verifying facebbok details" name="Verifying facebook login with valid credentials" time="16.989375">
+<system-out><![CDATA[Given user is on the facebook page..........................................passed
+When User should enter "JeniferJoseph" and "WA4P6I".........................passed
+And User should click login button..........................................passed
+And User should enter "Sydney","Hotel Creek","Double"and"2 - Two"...........passed
+And User should select the hotel by click login button......................passed
+And user should enter "Jenifer","Joseph","Chennai=600013","7299012723654320","VISA","March","2022"and"234".passed
+And user should get order id................................................passed
+Then user should verify success message.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
